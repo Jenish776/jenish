@@ -579,7 +579,6 @@ h4{
   height: 270px;
   background-color: #122139;
   border-radius: 20px;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiozx6bm0ZxBPafemmlZXpuHdFvyObRtAfBw&s);
   background-size: cover;
   box-shadow: 0px 0px 5px;
   display: flex;
@@ -587,12 +586,16 @@ h4{
   justify-content: center;
 }
 .content{
-  transform: translateY(25px);
+  transform: translateY(100px);
   margin-top: 210px;
   opacity: 0;
+  background-image: linear-gradient(transparent, rgb(50, 50, 180) 80%);
+  border-radius: 20px;
+  padding: 0px 5px 4px 5px;
+ 
 }
 .kl:hover .content{
-  transform: translateY(0px);
+  transform: translateY(-23px);
  opacity: 1;
  transition: 1s;
 }
