@@ -233,7 +233,7 @@ body{
     flex-direction: column;
   }
  .futter3{
-  flex-wrap: wrap;
+  flex-wrap: column;
  }
  .mobile{
   flex-direction: column;
