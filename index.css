@@ -151,9 +151,9 @@ body{
   padding: 30px;
   border-radius: 13px;
   position: sticky;
-  top: 650px;
+  top: 89%;
   z-index: 20;
-  margin-left: 93%;
+  margin-left: 90%;
   font-size: x-large;
 }
 #h8{
@@ -167,9 +167,9 @@ body{
   border-radius: 10px;
   z-index: 30;
   transform: rotate(270deg);
-  margin-left: 94%;
+/*   margin-left: 94%; */
   position: sticky;
-  top: 500px;
+  top: 70%;
 }
 @media(max-width:1300px){
   .title{
@@ -190,6 +190,9 @@ body{
   .color{
   background-color: #051226;
     
+  }
+    #h8{
+    visibility: hidden;
   }
   .bo{
     flex-direction: column;
