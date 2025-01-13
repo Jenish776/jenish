@@ -153,10 +153,11 @@ body{
   position: sticky;
   top: 89%;
   z-index: 20;
-  margin-left: 90%;
+  margin-left: 87%;
   font-size: x-large;
 }
 #h8{
+  margin-left: 90%;
   background-color: rgb(89, 183, 61);
   width: 150px;
   display: flex;
@@ -166,10 +167,12 @@ body{
   font-size: large;
   border-radius: 10px;
   z-index: 30;
-  transform: rotate(270deg);
-/*   margin-left: 94%; */
+  transform: translate(58px) rotate(-90deg);
   position: sticky;
   top: 70%;
+}
+.fa-phone{
+  margin-left: 13px;
 }
 @media(max-width:1300px){
   .title{
@@ -191,8 +194,18 @@ body{
   background-color: #051226;
     
   }
-    #h8{
-    visibility: hidden;
+     #h8{
+    visibility: hidden;   
+  }
+    #h9{
+      background-color: rgb(59, 205, 59);
+      text-align: center;
+      padding: 15px;
+      border-radius: 10px;
+      margin-left: 88%;
+      position: sticky;
+      top: 70%;
+      font-size: x-large;
   }
   .bo{
     flex-direction: column;
