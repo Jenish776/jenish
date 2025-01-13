@@ -182,7 +182,6 @@ body{
   }
   .produ{
     padding-top: 20px;
-     position: sticky;
     background-color: #051226;
   } 
   .box1{
@@ -233,7 +232,7 @@ body{
     flex-direction: column;
   }
  .futter3{
-  flex-wrap: column;
+   flex-direction: column;
  }
  .mobile{
   flex-direction: column;
@@ -255,6 +254,8 @@ body{
 .produ{
   display: flex;
   justify-content: space-between;
+  position: sticky;
+  top:0px;
   
 }
 .product:hover{
